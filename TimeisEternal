@@ -1,0 +1,1113 @@
+<!doctype html>
+<html>
+<head>
+<title>Time is Eternal</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+</head>
+<body>
+
+	<style>
+		.body{
+			overflow-y: hidden; // hide vertical
+			overflow-x: hidden; // hide vertical
+		}
+
+		*{
+		
+			font-size: 120%;
+		}
+		#mydiv {
+			position: absolute;
+			top: 3%;
+			right: 13%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;	
+		}
+		
+		#mydivheader {
+			cursor: move;
+			z-index: 10;	
+		}
+
+		#bigdiv{
+			position: absolute;
+			top:22%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader{
+			position: relative;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+		#bigdiv1{
+			position: absolute;
+			top:14%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader1{
+			position: relative;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+
+
+		#bigdiv2{
+			position: absolute;
+			top:8%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader2{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+
+
+		#bigdiv3{
+			position: absolute;
+			top:15%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader3{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+
+
+		#bigdiv4{
+			position: absolute;
+			top:2%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader4{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+		#bigdiv5{
+			position: absolute;
+			top:8%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader5{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+		
+
+		#bigdiv6{
+			position: absolute;
+			top:12%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader6{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+		#bigdiv7{
+			position: absolute;
+			top:2%;
+			right:30%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader7{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+		#bigdiv8{
+			position: absolute;
+			top:12%;
+			right:-20%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader8{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+		#bigdiv9{
+			position: absolute;
+			top:20%;
+			right:-15%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader9{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+
+
+		#bigdiv10{
+			position: absolute;
+			top:15%;
+			right:-12%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader10{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+		#bigdiv11{
+			position: absolute;
+			top:26%;
+			right:-13%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader11{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+
+		#bigdiv12{
+			position: absolute;
+			top:30%;
+			right:-11%;
+			z-index: 9;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 140%;
+		}
+
+		#bigdivheader12{
+			position: relative;
+			padding: 2px;
+			cursor: move;
+			z-index: 10;
+
+		}
+		</style>
+
+	
+
+
+
+
+<div id="mydiv">
+  <div id="mydivheader">
+	  <h1>Tokyo</h1>
+	<iframe width="345" height="205" src="https://www.youtube.com/embed/JYBpu1OyP0c?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="bigdiv">
+		<div id="bigdivheader">
+			<h1>Venice</h1>
+		  <iframe width="400" height="260" src="https://www.youtube.com/embed/vPbQcM4k1Ys?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  </div>
+	  </div>
+
+	  <div id="bigdiv1">
+			<div id="bigdivheader1">
+				<h1>New York</h1>
+			  <iframe width="400" height="260" src="https://www.youtube.com/embed/la90mA4VLa4?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  </div>
+		  </div>
+
+		  <div id="bigdiv2">
+				<div id="bigdivheader2">
+					<h1>London</h1>
+				  <iframe width="400" height="260" src="https://www.youtube.com/embed/Ji3S7jhL5x4?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			  </div>
+			  </div>
+
+			  <div id="bigdiv3">
+					<div id="bigdivheader3">
+						<h1>Mecca</h1>
+					  <iframe width="400" height="260" src="https://www.youtube.com/embed/ZQoAS5Atlwk?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				  </div>
+				  </div>
+
+				  <div id="bigdiv4">
+						<div id="bigdivheader4">
+							<h1>Netherlands</h1>
+						  <iframe width="400" height="260" src="https://www.youtube.com/embed/6Pc-59pPXpY?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					  </div>
+					  </div>
+
+					  <div id="bigdiv5">
+							<div id="bigdivheader5">
+								<h1>New Zealand</h1>
+							  <iframe width="400" height="260" src="https://www.youtube.com/embed/HbvoJXzLLNI?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						  </div>
+						  </div>
+
+						  <div id="bigdiv6">
+								<div id="bigdivheader6">
+									<h1>Melbourne</h1>
+								  <iframe width="400" height="260" src="https://www.youtube.com/embed/FZ72I6o6Z9k?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							  </div>
+							  </div>
+
+							  <div id="bigdiv7">
+									<div id="bigdivheader7">
+										<h1>Taipei City</h1>
+									  <iframe width="400" height="260" src="https://www.youtube.com/embed/Zwt3ZOej3_U?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								  </div>
+								  </div>
+
+								  <div id="bigdiv8">
+										<div id="bigdivheader8">
+											<h1>Sky News</h1>
+										  <iframe width="400" height="260" src="https://www.youtube.com/embed/XOacA3RYrXk?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+									  </div>
+									  </div>
+
+									  <div id="bigdiv9">
+											<div id="bigdivheader9">
+												<h1>Latin America news</h1>
+											  <iframe width="400" height="260" src="https://www.youtube.com/embed/0tek2aa8hAQ?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										  </div>
+										  </div>
+
+										  <div id="bigdiv10">
+												<div id="bigdivheader10">
+													<h1>Africa News</h1>
+												  <iframe width="400" height="260" src="https://www.youtube.com/embed/B3Y5gaLRH3E?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											  </div>
+											  </div>
+
+											  <div id="bigdiv11">
+													<div id="bigdivheader11">
+														<h1>Bloomberg News</h1>
+													  <iframe width="400" height="260" src="https://www.youtube.com/embed/Ga3maNZ0x0w?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+												  </div>
+												  </div>
+
+												  <div id="bigdiv12">
+														<div id="bigdivheader12">
+															<h1>Asia News</h1>
+														  <iframe width="400" height="260" src="https://www.youtube.com/embed/vCDDYb_M2B4?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+													  </div>
+													  </div>
+
+
+
+
+
+
+
+
+<script>
+	//Make the DIV element draggagle:
+	dragElement(document.getElementById(("mydiv")));
+	
+	function dragElement(elmnt) {
+	  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+	  if (document.getElementById(elmnt.id + "header")) {
+		/* if present, the header is where you move the DIV from:*/
+		document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+	  } else {
+		/* otherwise, move the DIV from anywhere inside the DIV:*/
+		elmnt.onmousedown = dragMouseDown;
+	  }
+	
+	  function dragMouseDown(e) {
+		e = e || window.event;
+		// get the mouse cursor position at startup:
+		pos3 = e.clientX;
+		pos4 = e.clientY;
+		document.onmouseup = closeDragElement;
+		// call a function whenever the cursor moves:
+		document.onmousemove = elementDrag;
+	  }
+	
+	  function elementDrag(e) {
+		e = e || window.event;
+		// calculate the new cursor position:
+		pos1 = pos3 - e.clientX;
+		pos2 = pos4 - e.clientY;
+		pos3 = e.clientX;
+		pos4 = e.clientY;
+		// set the element's new position:
+		elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+		elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+	  }
+	
+	  function closeDragElement() {
+		/* stop moving when mouse button is released:*/
+		document.onmouseup = null;
+		document.onmousemove = null;
+	  }
+	}
+
+		
+		</script>
+
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv1")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv2")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv3")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv4")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv5")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv6")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv7")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv8")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv9")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv10")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv11")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+<script>
+		//Make the DIV element draggagle:
+		dragElement(document.getElementById(("bigdiv12")));
+		
+		function dragElement(elmnt) {
+		  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+		  if (document.getElementById(elmnt.id + "header")) {
+			/* if present, the header is where you move the DIV from:*/
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		  } else {
+			/* otherwise, move the DIV from anywhere inside the DIV:*/
+			elmnt.onmousedown = dragMouseDown;
+		  }
+		
+		  function dragMouseDown(e) {
+			e = e || window.event;
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		  }
+		
+		  function elementDrag(e) {
+			e = e || window.event;
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		  }
+		
+		  function closeDragElement() {
+			/* stop moving when mouse button is released:*/
+			document.onmouseup = null;
+			document.onmousemove = null;
+		  }
+		}
+	
+			
+			</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
